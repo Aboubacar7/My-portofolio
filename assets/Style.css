@@ -15,7 +15,7 @@ body{
    padding: 1ch;
    background-color: black
 }
-header h1{
+.header h1{
     background-color: whitesmoke
    
 }
@@ -34,14 +34,15 @@ a{
     background-size: 100%;
     background-repeat: no-repeat;
     padding: 7em;
-    
+    display: flex;
    
 }
 
-.item-container{
+.item-container div{
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  
+   
 }
+
 main{
     max-width: 88%;
     margin: 0 auto;
@@ -119,9 +120,6 @@ section>div{
     background-image: url("https://www.bigdataframework.org/wp-content/uploads/2019/11/2.jpg");
 }
 
-.contact{
-   
-}
 .info a{
     color: black
 }
