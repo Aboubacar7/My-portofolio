@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100%;
+    background-color: whitesmoke
+}
+
+.header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1ch;
+   background-color: black
+}
+header h1{
+    background-color: whitesmoke
+   
+}
+nav li{
+    display: inline-block;  
+}
+
+a{
+    color:whitesmoke
+}
+.grid-container{
+    min-height: 150px;
+    min-width: 150px;
+    border: 1px solid #ccc;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/007/622/546/small/banner-template-design-abstract-black-and-white-geometric-squares-overlapping-layer-on-clean-background-vector.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 7em;
+    
+   
+}
+
+.item-container{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+main{
+    max-width: 88%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-bottom: 30px;
+}
+
+section>h2{
+    flex: 0 0 23%;
+    text-align: right;
+    padding-right: 20px;
+    border-right: 3px solid black; 
+}
+
+section>div{
+    flex: 0 0 77%;
+    padding-left: 10px;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-item{
+    border: 5px solid black;
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    margin: 0.5em;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    text-decoration: none;
+    background-size: 150%;
+}
+
+.flex-item div{
+    padding: 8px 8px;
+    background-color: cornflowerblue;
+}
+
+.flex-item:first-child{
+    min-height: 300px;
+    flex-basis: 100%;
+}
+
+.p1-css{
+    background-image: url("https://www.bigdataframework.org/wp-content/uploads/2019/11/2.jpg");
+}
+
+.p2-css{
+    background-image: url("https://www.bigdataframework.org/wp-content/uploads/2019/11/2.jpg");
+}
+
+
+.p3-css{
+    background-image: url("https://www.bigdataframework.org/wp-content/uploads/2019/11/2.jpg");
+}
+
+.p4-css{
+    background-image: url("https://www.bigdataframework.org/wp-content/uploads/2019/11/2.jpg");
+}
+
+.p5-css{
+    background-image: url("https://www.bigdataframework.org/wp-content/uploads/2019/11/2.jpg");
+}
+
+.contact{
+   
+}
+.info a{
+    color: black
+}
