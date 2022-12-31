@@ -5,41 +5,48 @@
 }
 body{
     min-height: 100%;
-    background-color: whitesmoke
+    background-color:  rgb(105, 134, 157);
 }
 
 .header{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 1ch;
-   background-color: black
+   padding: 1rem 0;
+   background-color: rgb(51, 73, 90);
 }
 .header h1{
-    background-color: whitesmoke
-   
+    padding-left: 1rem;
+    font-size: large;
+    background-color: rgb(143, 171, 185)
 }
-nav li{
-    display: inline-block;  
+.links{
+    display: flex;
+    gap: 1rem;
 }
 
 a{
     color:whitesmoke
 }
+
+a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+.hero-heading{
+    padding: 1rem 8rem;
+    color: goldenrod;
+}
 .grid-container{
     min-height: 150px;
     min-width: 150px;
     border: 1px solid #ccc;
-    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/007/622/546/small/banner-template-design-abstract-black-and-white-geometric-squares-overlapping-layer-on-clean-background-vector.jpg");
+    background-image: url("https://img.freepik.com/free-vector/abstract-business-professional-background-banner-design-multipurpose_1340-16858.jpg?auto=format&h=200");
     background-size: 100%;
     background-repeat: no-repeat;
     padding: 7em;
     display: flex;
-   
-}
-
-.item-container div{
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-color: black;
    
 }
 
@@ -53,8 +60,7 @@ section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: stretch;
+
     margin-bottom: 30px;
 }
 
@@ -93,6 +99,10 @@ section>div{
     padding: 8px 8px;
     background-color: cornflowerblue;
 }
+.flex-item p{
+   font-size: 10px;
+   margin-top: 2px;
+}
 
 .flex-item:first-child{
     min-height: 300px;
@@ -100,24 +110,24 @@ section>div{
 }
 
 .p1-css{
-    background-image: url("https://www.bigdataframework.org/wp-content/uploads/2019/11/2.jpg");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhN5fJ78163LgY6XypA5H9F0TG7LTUSjAxcA&usqp=CAU");
 }
 
 .p2-css{
-    background-image: url("https://www.bigdataframework.org/wp-content/uploads/2019/11/2.jpg");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNykcntxirr7T2_N8HAKJj8q8z4Z-CnYMfCFOTc1s1DobUGNtKpbA0KeBqz69gLZcG8GM&usqp=CAU");
 }
 
 
 .p3-css{
-    background-image: url("https://www.bigdataframework.org/wp-content/uploads/2019/11/2.jpg");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm0lcSOblqgnF4EJTfZ33CYXeHXA-1Rk34-w&usqp=CAU");
 }
 
 .p4-css{
-    background-image: url("https://www.bigdataframework.org/wp-content/uploads/2019/11/2.jpg");
+    background-image: url("data:image/jpeg;base64,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");
 }
 
 .p5-css{
-    background-image: url("https://www.bigdataframework.org/wp-content/uploads/2019/11/2.jpg");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJQUaZs8gFt7cc1hvBYevu5FQTRkaRPdljp1lwfiNtnDkTZoGTS8GBF7POiKcbcnYsWj8&usqp=CAU");
 }
 
 .info a{
