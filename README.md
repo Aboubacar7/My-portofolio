@@ -8,4 +8,4 @@
  I am presented with a responsive layout that adapts to my viewport,
  I am taken to that deployed application
 
-<img width="1439" alt="Screenshot 2023-01-03 at 3 38 22 PM" src="https://user-images.githubusercontent.com/118768377/210459139-a19d8d49-c591-4606-a225-205ad28b1515.png">
+<img width="1439" alt="Screenshot 2023-01-07 at 11 26 17 AM" src="https://user-images.githubusercontent.com/118768377/211167302-857e4482-28a0-4181-bbed-b518540bfe56.png">
