@@ -1,34 +1,40 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     min-height: 100%;
-    background-color:  rgb(105, 134, 157);
+    background-color: rgb(105, 134, 157);
 }
 
-.header{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 1rem 0;
-   background-color: rgb(51, 73, 90);
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    background-color: rgb(51, 73, 90);
 }
-.header h1{
+
+.header h1 {
     padding-left: 1rem;
     font-size: large;
     background-color: rgb(143, 171, 185)
 }
-.links{
+
+.links {
     display: flex;
     gap: 1rem;
 }
-.img-me{
+
+.img-me {
     width: 100px;
+    border-radius: 50%;
+
 }
 
-a{
+a {
     color: whitesmoke
 }
 
@@ -36,62 +42,80 @@ a:hover {
     background-color: whitesmoke;
     color: black;
 }
-.hero-heading{
-    margin: 0;
-    padding: 0;
+
+.hero-heading {
     font-size: 2em;
     text-align: center;
     position: absolute;
-    left: 45%;
+    width: 85%;
+    height: 50%;
     color: goldenrod;
 }
-.grid-container{
+
+.grid-container {
     min-height: 150px;
     min-width: 150px;
     border: 1px solid #ccc;
-    background-image: url("https://img.freepik.com/free-vector/abstract-business-professional-background-banner-design-multipurpose_1340-16858.jpg?auto=format&h=200");
+    background-image: url("https://wallpapercave.com/wp/wp7571042.png");
     background-size: 100%;
     background-repeat: no-repeat;
     padding: 7em;
     display: flex;
     border-color: black;
-   
+
 }
 
-main{
+main {
     max-width: 88%;
     margin: 0 auto;
     margin-top: 5%;
     padding-right: 2em;
+    resize: both;
+    overflow: auto;
 }
 
-section{
+section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
     margin-bottom: 30px;
 }
 
-section>h2{
+section>article {
     flex: 0 0 23%;
     text-align: right;
     padding-right: 20px;
-    border-right: 3px solid black; 
+    border-right: 3px solid black;
 }
 
-section>div{
+section>img {
+    margin: 0 auto;
+}
+
+section>h2 {
+    flex: 0 0 23%;
+    text-align: right;
+    padding-right: 20px;
+    border-right: 3px solid black;
+}
+
+.about-me {
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+section>div {
     flex: 0 0 77%;
     padding-left: 10px;
 }
 
-.flex-container{
+.flex-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.flex-item{
+.flex-item {
     border: 5px solid black;
     min-height: 150px;
     max-height: 150px;
@@ -104,41 +128,71 @@ section>div{
     background-size: 150%;
 }
 
-.flex-item div{
+.flex-item div {
     padding: 8px 8px;
     background-color: cornflowerblue;
 }
-.flex-item p{
-   font-size: 10px;
-   margin-top: 2px;
+
+.flex-item p {
+    font-size: 10px;
+    margin-top: 2px;
 }
 
-.flex-item:first-child{
+.flex-item:first-child {
     min-height: 300px;
     flex-basis: 100%;
 }
 
-.p1-css{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhN5fJ78163LgY6XypA5H9F0TG7LTUSjAxcA&usqp=CAU");
+.p1-css {
+    background-image: url("https://wallpapercave.com/wp/wp5555831.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.p2-css{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNykcntxirr7T2_N8HAKJj8q8z4Z-CnYMfCFOTc1s1DobUGNtKpbA0KeBqz69gLZcG8GM&usqp=CAU");
+.p1-css:hover {
+    filter: brightness(80%);
+}
+.p2-css {
+    background-image: url("https://www.ishinelux.com/uploads/ueditor/20210410/1-2104101H516496.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.p2-css:hover {
+    filter: brightness(80%);
 }
 
-
-.p3-css{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm0lcSOblqgnF4EJTfZ33CYXeHXA-1Rk34-w&usqp=CAU");
+.p3-css {
+    background-image: url("https://media.istockphoto.com/id/1049220848/photo/hands-working-on-laptop-network-graphic-overlay.jpg?s=612x612&w=0&k=20&c=c2FZLMcFhSd5cA5pPXVLS4Hs4wBIVF55qaLBlnhQ1i8=");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.p3-css:hover {
+    filter: brightness(80%);
 }
 
-.p4-css{
-    background-image: url("data:image/jpeg;base64,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");
+.p4-css {
+    background-image: url("https://previews.123rf.com/images/liakoltyrina/liakoltyrina2002/liakoltyrina200200012/139661313-mosaic-of-four-colorful-puzzles-hand-drawing-style-pastel-colors.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.p4-css:hover {
+    filter: brightness(80%);
 }
 
-.p5-css{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJQUaZs8gFt7cc1hvBYevu5FQTRkaRPdljp1lwfiNtnDkTZoGTS8GBF7POiKcbcnYsWj8&usqp=CAU");
+.p5-css {
+    background-image: url("https://wallpaperaccess.com/full/344618.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.p5-css:hover {
+    filter: brightness(80%);
 }
 
-.info a{
+.info a {
     color: black
 }
