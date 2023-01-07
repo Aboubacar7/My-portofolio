@@ -9,3 +9,7 @@
  I am taken to that deployed application
 
 <img width="1439" alt="Screenshot 2023-01-07 at 11 26 17 AM" src="https://user-images.githubusercontent.com/118768377/211167302-857e4482-28a0-4181-bbed-b518540bfe56.png">
+
+## Github repo link -
+
+### Live link - https://aboubacar7.github.io/challenge2/ 
