@@ -1,3 +1,5 @@
+/* Body Style */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +10,8 @@ body {
     min-height: 100%;
     background-color: rgb(105, 134, 157);
 }
+
+/* Styling Header */
 
 .header {
     display: flex;
@@ -28,12 +32,6 @@ body {
     gap: 1rem;
 }
 
-.img-me {
-    width: 100px;
-    border-radius: 50%;
-
-}
-
 a {
     color: whitesmoke
 }
@@ -42,6 +40,8 @@ a:hover {
     background-color: whitesmoke;
     color: black;
 }
+
+/* Styling Grid-Container */
 
 .hero-heading {
     font-size: 2em;
@@ -62,8 +62,9 @@ a:hover {
     padding: 7em;
     display: flex;
     border-color: black;
-
 }
+
+/* Main Style */
 
 main {
     max-width: 88%;
@@ -74,6 +75,10 @@ main {
     overflow: auto;
 }
 
+.img-me {
+    width: 100px;
+    border-radius: 50%;
+}
 section {
     display: flex;
     flex-direction: row;
