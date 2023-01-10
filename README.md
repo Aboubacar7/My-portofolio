@@ -12,4 +12,4 @@
 
 ## GitHub Repo Link - https://github.com/Aboubacar7/challenge2
 
-### Live URL - https://aboubacar7.github.io/challenge2/ 
+### Live URL - https://aboubacar7.github.io/My-portofolio/
