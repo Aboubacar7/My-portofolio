@@ -124,6 +124,7 @@ section>div {
     border: 5px solid black;
     min-height: 150px;
     max-height: 150px;
+    width: 50;
     flex-basis: calc(50% - 1em);
     display: flex;
     margin: 0.5em;
